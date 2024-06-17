@@ -53,6 +53,7 @@ Pkg.instantiate()
     ```
     通过 `produce_or_load` 函数来判断是否需要重新生成数据，如果数据已经存在则直接加载，否则生成新的数据。
 
+注意：Windows的默认文件路径限制约250字符，DrWaston包默认成生成的文件名称可能会超过这一限制导致保存失败，可以用以下方式[解除限制](https://learn.microsoft.com/zh-cn/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell)
 如果使用本项目，请引用以下论文：
 ```bibtex
 @article{shang2024liquimager,
