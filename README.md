@@ -1,6 +1,6 @@
 # EM_simulation_MoM
 Simulate the propagation of two-dimensional TM waves using the julia language and the method of moments.
-
+代码实现参照了[开源代码](https://github.com/EMJian/Inverse-Scattering)
 
 ## 文件说明
 - `src/`目录下是常用函数
